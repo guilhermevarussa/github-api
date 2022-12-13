@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #0d1117;
+    color: #fff;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 20px auto
+}
+
+a {
+    text-decoration: none;
+    color: #8b949e;
+    background-color: #0d1117;
+}
+
+.container {
+    margin: 30px;
+}
+
+.container .project-card {
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+    margin: 20px;
+}
+
+.container .project-card div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container .project-card div .create-date {
+    color: #8b949e;
+    border: 1px solid #8b949e;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+
+.container .project-card div .tiitle{
+    color: #47a6f0;
+
+}
+
+.container .project-card .language .css-circle{
+    background-color: #47a6f0;
+    width: 12px;
+    display: inline-block;
+    border-radius: 50%;
+    height: 12px;
+    margin-right: 5px;
+    border: 1px solid #30363d;
+    ;
+}
+
