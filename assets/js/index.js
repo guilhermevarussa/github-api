@@ -23,7 +23,8 @@ function getApiGithub() {
                     <a href="${item.html_url}" target="_blank">${item.html_url}</a>
                     <span class="language"><span class="css-circle"></span>${item.language}</span>
                 </div>
-                </div>
+                </div
+                
                 `;
 
                 repositories.appendChild(projectCard)
